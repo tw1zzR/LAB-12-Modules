@@ -8,7 +8,6 @@ def scnd_Fragments(text):
     for i in range(0, len(text), 2):
         print(text[i:i + 2], random.randrange(9), random.randrange(9))
 
-
 print("\nВикликаємо першу функцію:")
 first_Fragments("Давайте розділимо цей текст на фрагменти", 4)
 
